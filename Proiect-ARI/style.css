@@ -14,6 +14,13 @@ body {
     background-color: #f7f7f7;
 }
 
+  /* Stiluri pentru imaginea logoului */
+  .panda-logo {
+    width: 100px; /* dimensiunea imaginii */
+    height: auto;
+    margin-right: 10px; /* Spatierea între imagine și text */
+  }
+
 /* Stilizare antet */
 header {
     background-color: #202124;
