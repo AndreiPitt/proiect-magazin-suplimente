@@ -1,0 +1,121 @@
+/* Resetare CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilizare generală a fontului */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+  /* Stiluri pentru imaginea logoului */
+  .panda-logo {
+    width: 100px; /* dimensiunea imaginii */
+    height: auto;
+    margin-right: 10px; /* Spatierea între imagine și text */
+  }
+
+/* Stilizare antet */
+header {
+    background-color: #202124;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Stilizare meniu de navigare */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Stilizare secțiuni */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Stilizare subsol */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.product-section a {
+    text-decoration: none;
+    color: #333;
+    flex: 1 0 45%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; /* Lățimea containerului */
+}
+
+.product-section img {
+    width: 100%; /* Imaginile vor umple întreaga lățime a containerului */
+    height: auto; /* Înălțimea se va ajusta automat pentru a menține proporțiile */
+    max-height: 300px; /* Imaginile nu vor depăși înălțimea de 300px */
+    object-fit: cover; /* Asigură că imaginile sunt scalate uniform */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-section a:hover img {
+    transform: scale(1.05);
+}
+
+
+.product-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-section span {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

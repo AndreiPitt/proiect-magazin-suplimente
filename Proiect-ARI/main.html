@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Nutrition</title>
     <link rel="icon" href="sursa_imagini\logo.png" type="image/png">
-    <link rel="stylesheet" href="style.css"> <!-- Legatura cu fisierul CSS -->
+    <link rel="stylesheet" href="homestyle.css"> <!-- Legatura cu fisierul CSS -->
     <script>
         // Funcție pentru derularea linii de meniu la secțiunile corespunzătoare
         function scrollToSection(sectionId) {
@@ -19,10 +19,10 @@
         <img src="sursa_imagini\logo.png" alt="Panda Nutrition Logo" class="panda-logo">
         <nav>
             <ul>
-                <li><a href="#" onclick="scrollToSection('acasa')">Acasă</a></li>
-                <li><a href="#" onclick="scrollToSection('produse')">Produse</a></li>
-                <li><a href="#" onclick="scrollToSection('despre')">Despre Noi</a></li>
-                <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+                <li><a href="#acasa" onclick="scrollToSection('acasa')">Acasă</a></li>
+                <li><a href="#produse" onclick="scrollToSection('produse')">Produse</a></li>
+                <li><a href="#despre" onclick="scrollToSection('despre')">Despre Noi</a></li>
+                <li><a href="#contact" onclick="scrollToSection('contact')">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,10 +39,33 @@
             Echipa Panda Nutrition<br>
         </p>
     </section>
-
     <section id="produse">
         <h2>Produse</h2>
-        <!-- Continut pentru pagina de produse -->
+        <div class="product-section">
+            <a href="produsedeslabit.html">
+            <img src="sursa_imagini/slabit.jpg">
+            <span>
+            Pierdeți în greutate </span>
+            </a>
+
+            <a href="produseproteice.html">
+            <img src="sursa_imagini/masamusculara.jpg">
+            <span>
+            Dezvoltați masa musculară </span>
+            </a>
+
+            <a href="gustari.html">
+            <img src="sursa_imagini/gustari.jpeg">
+            <span>
+                Gustari</span>
+            </a>
+
+            <a href="echipament.html">
+                <img src="sursa_imagini/echipament.jpg">
+                <span>
+                    Echipament</span>
+                </a>
+        </div>
     </section>
 
     <section id="despre">
@@ -69,22 +92,20 @@
         <br>Dacă ai întrebări, sugestii sau ai nevoie de asistență suplimentară, nu ezita să ne contactezi. Suntem aici pentru a te ajuta și suntem nerăbdători să auzim de la tine.
     <pre>
         <br>Informații de Contact:
-        <br>    Adresă: [Adresa ta]
-        <br>    Telefon: [Numărul tău de telefon]
-        <br>    E-mail: [Adresa ta de e-mail]
+        <br>    Adresă: jud Timis, Timisoara, str Mea, nr 7
+        <br>    Telefon: 0747 000 000
+        <br>    E-mail: pit@gmail.com
         <br>    Program: Luni - Vineri, 9:00 - 18:00 (GMT+2)
-        <br>    Formular de Contact:
     </pre>
-        <br>Vă mulțumim pentru interesul și sprijinul acordat [Numele Magazinului]. Promitem să răspundem în cel mai scurt timp posibil și să facem tot posibilul pentru a-ți oferi soluțiile și informațiile de care ai nevoie.
+        <br>Vă mulțumim pentru interesul și sprijinul acordat Panda Nutrition. Promitem să răspundem în cel mai scurt timp posibil și să facem tot posibilul pentru a-ți oferi soluțiile și informațiile de care ai nevoie.
 
         <br>Cu căldură,
 
-        <br>Echipa [Numele Magazinului]
+        <br>Echipa Panda Nutrition
     </section>
 
     <footer>
         <p>&copy; 2024 Panda Nutrition</p>
-        <!-- Alte informații de contact sau link-uri -->
     </footer>
 </body>
 </html>
