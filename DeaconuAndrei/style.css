@@ -1,0 +1,108 @@
+/* Resetare CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stilizare generală a fontului */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+  /* Stiluri pentru imaginea logoului */
+  .panda-logo {
+    width: 100px; /* dimensiunea imaginii */
+    height: auto;
+    margin-right: 10px; /* Spatierea între imagine și text */
+  }
+
+/* Stilizare antet */
+header {
+    background-color: #202124;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Stilizare meniu de navigare */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Stilizare secțiuni */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Stilizare widget-homepage */
+@media only screen and (max-width: 326px) {
+    #widget-homepage-categories {
+        padding: 0 20px;
+    }
+}
+
+#widget-homepage-categories>div a {
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+    overflow: hidden;
+    align-items: center;
+    flex: calc(50% - 10px);
+}
+#widget-homepage-categories>div a img {
+    background-color: #e9e9e9;
+    max-width: 326px;
+    max-height: 326px;
+    margin: 0;
+}
+a:visited, .alink:visited {
+    color: #ff4100;
+    text-decoration: none;
+}
+
+#widget-homepage-categories>div a span {
+    padding: 15px 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+    color: #666;
+}
+
+/* Stilizare subsol */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
